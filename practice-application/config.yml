@@ -1,0 +1,10 @@
+logging:
+  level: INFO
+  loggers:
+    io.github.yuoonishi.dropwizardsample: DEBUG
+
+database:
+  driverClass: org.h2.Driver
+  user: sa
+  password: sa
+  url: jdbc:h2:./target/practice-application;MVCC=TRUE;AUTO_SERVER=TRUE
